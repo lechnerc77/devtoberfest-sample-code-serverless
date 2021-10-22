@@ -1,9 +1,13 @@
-### Sample GET with a valifd ID (1 or 2)
-GET http://localhost:7071/api/devtoberfest/marvel/1
+### Sample POST request to create a new entry in the staging container
+POST http://localhost:7071/api/devtoberfest/staging/marvel/
+Content-Type: application/json
 
-### Sample GET with an invalid ID
-GET http://localhost:7071/api/devtoberfest/marvel/42
-
-### Sample GET with an invalid route
-GET http://localhost:7071/api/devtoberfest/marvel/
-
+{
+  "id": "{{$guid}}",
+  "nickName": "Hulk",
+  "email":"bruce.banner@avengers.com",
+  "location": {
+      "region": "massachusetts",
+      "country": "usa"
+  }
+}      

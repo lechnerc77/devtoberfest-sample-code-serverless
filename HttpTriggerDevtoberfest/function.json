@@ -5,16 +5,16 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "route": "devtoberfest/marvel/{id}",
+      "route": "devtoberfest/staging/marvel/",
       "methods": [
-        "get"
+        "post"
       ]
     },
     {
       "type": "blob",
-      "direction": "in",
-      "name": "config",
-      "path": "marvelcharacters/marvel-character-{id}.json"
+      "direction": "out",
+      "name": "stage",
+      "path": "staging/marvel-character-{id}-{nickName}.json"
     },
     {
       "type": "http",

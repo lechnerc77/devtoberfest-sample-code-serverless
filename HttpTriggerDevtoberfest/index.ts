@@ -4,29 +4,27 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
 
     let responseStatusCode: number
     let responseMessage: string
-    let responseHeaders: object
 
+    if (req.body) {
 
-    if (context.bindings.config) {
+        context.bindings.stage = req.body
 
-        responseStatusCode = 200
-        responseHeaders = { "Content-Type": "application/json" }
-        responseMessage = context.bindings.config
+        responseStatusCode = 201
+        responseMessage = "Marvel character data created in Blob storage (STAGING)."
 
     }
     else {
 
-        responseStatusCode = 404
-        responseHeaders = { "Content-Type": "text/plain" }
-        responseMessage = `No result found`
+        responseStatusCode = 400
+        responseMessage = "Provide player data in the request."
 
     }
 
     context.res = {
         status: responseStatusCode,
-        headers: responseHeaders,
         body: responseMessage
     }
+
 
 }
 
