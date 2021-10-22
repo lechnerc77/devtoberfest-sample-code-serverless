@@ -1,6 +1,5 @@
 ### Sample GET without query parameter
-GET http://localhost:7071/api/devtoberfest
+GET http://localhost:7071/api/orchestrators/DurableFunctionsOrchestrator
 
 
-### Sample GET with query parameter
-GET http://localhost:7071/api/devtoberfest?name=Christian
+### Insert the GET request to the status URI here 
