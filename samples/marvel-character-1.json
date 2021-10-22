@@ -1,0 +1,9 @@
+{
+    "id": "1",
+    "nickName": "Scarlet Witch",
+    "email":"wanda.maximoff@avengers.com",
+    "location": {
+        "region": "novi grad",
+        "country": "sokovia"
+    }
+ }

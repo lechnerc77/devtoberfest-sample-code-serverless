@@ -1,0 +1,6 @@
+### Sample GET without query parameter
+GET http://localhost:7071/api/devtoberfest
+
+
+### Sample GET with query parameter
+GET http://localhost:7071/api/devtoberfest?name=Christian
