@@ -5,10 +5,16 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "route": "devtoberfest",
+      "route": "devtoberfest/marvel/{id}",
       "methods": [
         "get"
       ]
+    },
+    {
+      "type": "blob",
+      "direction": "in",
+      "name": "config",
+      "path": "marvelcharacters/marvel-character-{id}.json"
     },
     {
       "type": "http",

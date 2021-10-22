@@ -1,6 +1,9 @@
-### Sample GET without query parameter
-GET http://localhost:7071/api/devtoberfest
+### Sample GET with a valifd ID (1 or 2)
+GET http://localhost:7071/api/devtoberfest/marvel/1
 
+### Sample GET with an invalid ID
+GET http://localhost:7071/api/devtoberfest/marvel/42
 
-### Sample GET with query parameter
-GET http://localhost:7071/api/devtoberfest?name=Christian
+### Sample GET with an invalid route
+GET http://localhost:7071/api/devtoberfest/marvel/
+
