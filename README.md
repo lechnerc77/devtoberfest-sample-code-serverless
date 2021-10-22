@@ -18,10 +18,10 @@ If you want to execute the samples locally as shown in the video you must instal
 
 The repository contains several branches that cover the different samples we implemented during the session:
 
-* [main]() - Sample HTTP triggered function ([Link to recoding](https://youtu.be/y1167Yme07o?t=797))
-* [input-binding]() - Function with input binding reading from a blob storage ([Link to recoding](https://youtu.be/y1167Yme07o?t=1328))
-* [output-binding]() - Function with output binding writing to a blob storage ([Link to recoding](https://youtu.be/y1167Yme07o?t=1842))
-* [durable]() - Durable Function with a sequential execution of steps ([Link to recoding](https://youtu.be/y1167Yme07o?t=2709))
+* [main](https://github.com/lechnerc77/devtoberfest-sample-code-serverless/tree/main) - Sample HTTP triggered function ([Link to recoding](https://youtu.be/y1167Yme07o?t=797))
+* [input-binding](https://github.com/lechnerc77/devtoberfest-sample-code-serverless/tree/input-binding) - Function with input binding reading from a blob storage ([Link to recoding](https://youtu.be/y1167Yme07o?t=1328))
+* [output-binding](https://github.com/lechnerc77/devtoberfest-sample-code-serverless/tree/output-binding) - Function with output binding writing to a blob storage ([Link to recoding](https://youtu.be/y1167Yme07o?t=1842))
+* [durable](https://github.com/lechnerc77/devtoberfest-sample-code-serverless/tree/durable) - Durable Function with a sequential execution of steps ([Link to recoding](https://youtu.be/y1167Yme07o?t=2709))
 
 ## Samples
 
